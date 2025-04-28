@@ -1,9 +1,9 @@
 ## Examples
 <div style="display: flex; justify-content: space-between;">
-<img src="/pngs/clean1.png" alt="Image 1" style="width:100px;display:inline-block;margin-right: 5px;">
-<img src="/pngs/clean2.png" alt="Image 2" style="width:100px;display:inline-block;margin-right: 5px;">
-<img src="/pngs/clean3.png" alt="Image 3" style="width:100px;display:inline-block;margin-right: 5px;">
-<img src="/pngs/clean4.png" alt="Image 4" style="width:100px;display:inline-block;margin-right: 5px;">
+<img src="/pngs/clean1.png" alt="Image 1" style="width:200px;display:inline-block;margin-right: 5px;">
+<img src="/pngs/clean2.png" alt="Image 2" style="width:200px;display:inline-block;margin-right: 5px;">
+<img src="/pngs/clean3.png" alt="Image 3" style="width:200px;display:inline-block;margin-right: 5px;">
+<img src="/pngs/clean4.png" alt="Image 4" style="width:200px;display:inline-block;margin-right: 5px;">
 </div>
 
 
