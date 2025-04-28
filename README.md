@@ -1,5 +1,8 @@
 ## Examples
 
+|![Image 1](/pngs/clean1.png)|![Image 2](/pngs/clean2.png)|![Image 3](/pngs/clean3.png)|![Image 4](/pngs/clean4.png)|
+|---|---|---|
+
 <img src="/pngs/clean1.png" alt="Image 1" style="width:120px;display:inline-block;">
 <img src="/pngs/clean2.png" alt="Image 2" style="width:20%;display:inline-block;">
 <img src="/pngs/clean3.png" alt="Image 3" style="width:20%;display:inline-block;">
