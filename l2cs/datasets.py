@@ -85,22 +85,10 @@ class Mpiigaze(Dataset):
     self.orig_list_len = 0
     self.lines = []
     path=pathorg.copy()
-    # if train==True:
-    #  path.pop(fold)
-    # else:
-    #  path=path[fold]
-    # 定义每组的样本数量
-    group_size = 5
-    # 计算测试集的起始索引
-    start_index = fold * group_size
-    end_index = start_index + group_size
-
-    if train:
-        # 移除当前 fold 对应的 5 组样本作为训练集
-        del path[start_index:end_index]
+    if train==True:
+     path.pop(fold)
     else:
-        # 选取当前 fold 对应的 5 组样本作为测试集
-        path = path[start_index:end_index]
+     path=path[fold]
 
     if isinstance(path, list):
         for i in path:
@@ -167,19 +155,9 @@ class Mpiigaze(Dataset):
 
     return img, labels, cont_labels, name, idx
 
-  def get_subset_excluding_indices(self, indices):
-      all_indices = set(range(len(self.lines)))
-      # 将numpy.ndarray转换为单个整数组成的集合
-      indices_to_exclude = set(indices.flatten())
-      remaining_indices = all_indices - indices_to_exclude
-      subset_lines = [self.lines[i] for i in remaining_indices]
-      self.lines = subset_lines
-      return self
-
+  # Access the dataset based on the indices
   def get_subset_including_indices(self, indices):
-      # 将numpy.ndarray转换为单个整数组成的集合
       indices_to_include = set(indices.flatten())
-      # 从lines中提取指定索引的元素
       subset_lines = [self.lines[i] for i in indices_to_include if i < len(self.lines)]
       self.lines = subset_lines
       return self
