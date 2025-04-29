@@ -13,14 +13,14 @@
     <img src="pngs/noise4.png" alt="Image 8" style="width:200px;display:inline-block;margin-right: 5px;"/>
 </div>
 
-The first row shows the image with a clean label, and the green arrow indicates the direction of gaze.
+The first row shows several images with clean labels, in which the gaze directions are presented by the green arrows of unit vectors.
 
-The second row shows the image with the noisy label. The red arrow indicates the incorrect gaze direction, and the green arrow indicates the correct one.
+The second row shows some images with suspicious noisy labels. The red arrows indicate the original inaccurate gaze directions, whereas the green arrows indicate the correct ones.
 ___
 
 # DMRF+L2CS-Net
 
-The official PyTorch implementation of L2CS-Net for gaze estimation and tracking.
+The PyTorch implementation of DMRF noise filtering based on L2CS-Net for gaze estimation.
 
 ## 1. Installation
 <img src="https://img.shields.io/badge/python%20-%2314354C.svg?&style=for-the-badge&logo=python&logoColor=white"/> <img src="https://img.shields.io/badge/PyTorch%20-%23EE4C2C.svg?&style=for-the-badge&logo=PyTorch&logoColor=white" />
