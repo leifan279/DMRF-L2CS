@@ -477,7 +477,7 @@ if __name__ == '__main__':
                     index_chunks = np.append(index_chunks, index1)
 
             # Dimensionality Reduction
-            pca = PCA(n_components=512)
+            pca = PCA(n_components=128)
             feature_app_pca = pca.fit_transform(feature_app)
 
             # DMRF Filtering
