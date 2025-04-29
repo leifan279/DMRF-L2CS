@@ -65,7 +65,7 @@ The well-trained models in all epochs will be stored to *output/snapshots*.
 ```
 
 ### 3.2 Test and Evaluation
-The above models will be evaluated on the testing set and store the results to *evaluation/L2CS-mpiigaze*.
+The above models will be evaluated by Mean Absolute Error (MAE) on the testing set and store the results to *evaluation/L2CS-mpiigaze*.
 
 ```
  python test.py 
@@ -79,4 +79,4 @@ The above models will be evaluated on the testing set and store the results to *
 
 A. Abdelrahman, T. Hempel, A. Khalifa, et al., L2cs-net: Fine-grained gaze estimation in unconstrained environments, 2023 8th International Conference on Frontiers of Signal Processing, ICFSP. (2023) 98-102.
 
-[L2CS-NET Code]([https://phi-ai.buaa.edu.cn/Gazehub/3D-dataset/](https://github.com/Ahmednull/L2CS-Net))
+[L2CS-NET Code](https://github.com/Ahmednull/L2CS-Net)
