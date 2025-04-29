@@ -158,6 +158,6 @@ class Mpiigaze(Dataset):
   # Access the dataset based on the indices
   def get_subset_including_indices(self, indices):
       indices_to_include = set(indices.flatten())
-      subset_lines = [self.lines[i] for i in indices_to_include if i < len(self.lines)]
+      subset_lines = [self.lines[int(i)] for i in indices_to_include if i < len(self.lines)]
       self.lines = subset_lines
       return self
