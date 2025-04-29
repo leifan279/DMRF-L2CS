@@ -1,4 +1,4 @@
-## Clean Gaze Labels vs Noisy Gaze Labels (Detected by DMRF)
+## Clean Gaze Labels vs. Noisy Gaze Labels (Detected by DMRF)
 <div style="display: flex; justify-content: space-between;">
     <img src="pngs/clean1.png" alt="Image 1" style="width:200px;display:inline-block;margin-right: 5px;"/>
     <img src="pngs/clean2.png" alt="Image 2" style="width:200px;display:inline-block;margin-right: 5px;"/>
@@ -74,3 +74,9 @@ The above models will be evaluated on the testing set and store the results to *
 ```
  python leave_one_out_eval.py 
 ```
+
+## Reference
+
+A. Abdelrahman, T. Hempel, A. Khalifa, et al., L2cs-net: Fine-grained gaze estimation in unconstrained environments, 2023 8th International Conference on Frontiers of Signal Processing, ICFSP. (2023) 98-102.
+
+[L2CS-NET Code]([https://phi-ai.buaa.edu.cn/Gazehub/3D-dataset/](https://github.com/Ahmednull/L2CS-Net))
