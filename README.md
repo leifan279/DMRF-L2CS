@@ -1,16 +1,16 @@
 ## Examples
 <div style="display: flex; justify-content: space-between;">
-<img src="pngs/clean1.png" alt="Image 1" style="width:200px;display:inline-block;margin-right: 5px;">
-<img src="pngs/clean2.png" alt="Image 2" style="width:200px;display:inline-block;margin-right: 5px;">
-<img src="pngs/clean3.png" alt="Image 3" style="width:200px;display:inline-block;margin-right: 5px;">
-<img src="pngs/clean4.png" alt="Image 4" style="width:200px;display:inline-block;margin-right: 5px;">
+    <img src="pngs/clean1.png" alt="Image 1" style="width:200px;display:inline-block;margin-right: 5px;"/>
+    <img src="pngs/clean2.png" alt="Image 2" style="width:200px;display:inline-block;margin-right: 5px;"/>
+    <img src="pngs/clean3.png" alt="Image 3" style="width:200px;display:inline-block;margin-right: 5px;"/>
+    <img src="pngs/clean4.png" alt="Image 4" style="width:200px;display:inline-block;margin-right: 5px;"/>
 </div>
 
 <div style="display: flex; justify-content: space-between;">
-<img src="/pngs/noise1.png" alt="Image 5" style="width:200px;display:inline-block;margin-right: 5px;">
-<img src="/pngs/noise2.png" alt="Image 6" style="width:200px;display:inline-block;margin-right: 5px;">
-<img src="/pngs/noise3.png" alt="Image 7" style="width:200px;display:inline-block;margin-right: 5px;">
-<img src="/pngs/noise4.png" alt="Image 8" style="width:200px;display:inline-block;margin-right: 5px;">
+    <img src="pngs/noise1.png" alt="Image 5" style="width:200px;display:inline-block;margin-right: 5px;"/>
+    <img src="pngs/noise2.png" alt="Image 6" style="width:200px;display:inline-block;margin-right: 5px;"/>
+    <img src="pngs/noise3.png" alt="Image 7" style="width:200px;display:inline-block;margin-right: 5px;"/>
+    <img src="pngs/noise4.png" alt="Image 8" style="width:200px;display:inline-block;margin-right: 5px;"/>
 </div>
 
 The first row shows the image with a clean label, and the green arrow indicates the direction of gaze.
