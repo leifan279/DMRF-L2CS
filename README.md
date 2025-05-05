@@ -45,7 +45,7 @@ $ python
 ```
 
 
-## 2. Prepare datasets
+## 2. Dataset Preparation
 * Download the **preprocessed MPIIFaceGaze dataset** (15 persons) from [here](https://phi-ai.buaa.edu.cn/Gazehub/3D-dataset/).
 * Store the dataset to *datasets/MPIIFaceGaze*.
 
